@@ -1,12 +1,16 @@
 > **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
 >
-> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+> 본 문서의 사본은 개인적인 용도 및 타인에게 배포하는 용도로 제작할 수 있습니다.
+> 단, 사본에 대해 어떠한 수수료도 부과해서는 안 되며, 인쇄물이든 전자적 형태이든
+> 배포하는 모든 사본에는 본 저작권 고지가 포함되어야 합니다.
+>
+> **원문:** <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-config.html>
+>
+> 본 문서는 학습 목적의 비공식 한국어 번역이며, 정확한 내용은 원문을 참조하시기 바랍니다.
 
 # Template Configuration
 
 `MongoTemplate`은 한 번 만들어 두면 thread-safe 하게 재사용할 수 있는 무거운(heavy) 컴포넌트다. 따라서 보통은 Spring 컨테이너에 빈으로 한 번만 등록해 두고, 필요한 곳에서 주입받아 쓴다. 이 문서는 `MongoTemplate`을 어떻게 만들고, 어떤 옵션을 켜거나 끌 수 있는지를 정리한다.
-
-> 원문: <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-config.html>
 
 | 주제                                                                       | 한 줄 요약                                                       |
 |--------------------------------------------------------------------------|--------------------------------------------------------------|

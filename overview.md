@@ -1,6 +1,12 @@
 > **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
 >
-> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+> 본 문서의 사본은 개인적인 용도 및 타인에게 배포하는 용도로 제작할 수 있습니다.
+> 단, 사본에 대해 어떠한 수수료도 부과해서는 안 되며, 인쇄물이든 전자적 형태이든
+> 배포하는 모든 사본에는 본 저작권 고지가 포함되어야 합니다.
+>
+> **원문:** <https://docs.spring.io/spring-data/mongodb/reference/>
+>
+> 본 문서는 학습 목적의 비공식 한국어 번역이며, 정확한 내용은 원문을 참조하시기 바랍니다.
 
 # Spring Data MongoDB
 
@@ -16,6 +22,6 @@ Spring Data MongoDB는 MongoDB 데이터베이스를 지원합니다. 이 프로
 
 Mark Pollack; Thomas Risberg; Oliver Gierke; Costin Leau; Jon Brisbin; Thomas Darimont; Christoph Strobl; Mark Paluch; Jay Bryant
 
-© 2008-2026 VMware Inc.
+© 2008-2025 VMware Inc.
 
 본 문서의 사본은 귀하의 개인적인 용도 및 타인에게 배포하는 용도로 제작할 수 있습니다. 단, 사본에 대해 어떠한 수수료도 부과해서는 안 되며, 인쇄물이든 전자적 형태이든 배포하는 모든 사본에는 본 저작권 고지가 포함되어야 합니다.

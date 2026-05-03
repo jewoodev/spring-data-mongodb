@@ -1,12 +1,16 @@
 > **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
 >
-> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+> 본 문서의 사본은 개인적인 용도 및 타인에게 배포하는 용도로 제작할 수 있습니다.
+> 단, 사본에 대해 어떠한 수수료도 부과해서는 안 되며, 인쇄물이든 전자적 형태이든
+> 배포하는 모든 사본에는 본 저작권 고지가 포함되어야 합니다.
+>
+> **원문:** <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-crud-operations.html>
+>
+> 본 문서는 학습 목적의 비공식 한국어 번역이며, 정확한 내용은 원문을 참조하시기 바랍니다.
 
 # Saving, Updating, and Removing Documents
 
 `MongoTemplate`은 도메인 객체를 그대로 받아서 BSON 문서로 저장하고, 그 반대 방향의 매핑까지 한 번에 처리한다. 이 문서는 "이 객체를 컬렉션에 어떻게 집어넣고, 어떻게 바꾸고, 어떻게 지우느냐"에 해당하는 메서드들을 모은 것이다. 조회는 [Querying Documents](./querying-documents.md) 쪽을 참고하면 된다.
-
-> 원문: <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-crud-operations.html>
 
 이 페이지에서 다루는 주제는 다음과 같다.
 

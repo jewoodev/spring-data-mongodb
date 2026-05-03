@@ -1,12 +1,16 @@
 > **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
 >
-> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+> 본 문서의 사본은 개인적인 용도 및 타인에게 배포하는 용도로 제작할 수 있습니다.
+> 단, 사본에 대해 어떠한 수수료도 부과해서는 안 되며, 인쇄물이든 전자적 형태이든
+> 배포하는 모든 사본에는 본 저작권 고지가 포함되어야 합니다.
+>
+> **원문:** <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-query-operations.html>
+>
+> 본 문서는 학습 목적의 비공식 한국어 번역이며, 정확한 내용은 원문을 참조하시기 바랍니다.
 
 # Querying Documents
 
 Spring Data MongoDB는 쿼리를 두 개의 작은 빌더 클래스로 표현한다. **`Query`** 는 "어떤 옵션을 켜고 어떤 조건들을 묶어서 보낼 것인가"를, **`Criteria`** 는 "각 필드에 어떤 조건을 걸 것인가"를 책임진다. 메서드 이름은 가능한 한 MongoDB 연산자(`$lt`, `$gte`, `$in` 등)와 같은 모양으로 맞춰져 있어, MongoDB 셸에서 쿼리를 짜본 적이 있다면 거의 그대로 옮겨 쓸 수 있다.
-
-> 원문: <https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-query-operations.html>
 
 | 주제                                            | 한 줄 요약                                          |
 |-----------------------------------------------|-------------------------------------------------|
