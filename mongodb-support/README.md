@@ -36,12 +36,12 @@ Spring Data가 제공하는 MongoDB 지원 기능은 폭넓은 범위를 가진�
 
 | 주제                                                                                                                       | 설명                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [Requirements](requirements.md)                                                                                        | Spring Data MongoDB가 요구하는 JDK / Spring Framework / MongoDB 드라이버 및 데이터베이스 버전.    |
+| [Requirements](requirements.md)                                                                                          | Spring Data MongoDB가 요구하는 JDK / Spring Framework / MongoDB 드라이버 및 데이터베이스 버전.    |
 | [Getting Started](https://docs.spring.io/spring-data/mongodb/reference/mongodb/getting-started.html)                     | 새로운 프로젝트에서 Spring Data MongoDB를 시작하는 방법.                                        |
 | [Connecting to MongoDB](https://docs.spring.io/spring-data/mongodb/reference/mongodb/configuration.html)                 | `MongoClient` 와 `MongoDatabaseFactory` 등 MongoDB 연결 설정.                         |
-| [Template API](template-api/Template_API.md)                                                                           | `MongoTemplate`/`MongoOperations` 사용법, fluent API, 예외 변환, 도메인 타입 매핑.            |
+| [Template API](template-api/README.md)                                                                                   | `MongoTemplate`/`MongoOperations` 사용법, fluent API, 예외 변환, 도메인 타입 매핑.            |
 | [GridFS Support](https://docs.spring.io/spring-data/mongodb/reference/mongodb/template-gridfs.html)                      | 대용량 파일 저장을 위한 GridFS 지원.                                                        |
-| [Object Mapping](./object-mapping/object-mapping.md)                                                                     | 객체와 BSON 문서를 매핑하는 방식, 어노테이션, 컨벤션 기반 매핑.                                         |
+| [Object Mapping](./object-mapping/README.md)                                                                             | 객체와 BSON 문서를 매핑하는 방식, 어노테이션, 컨벤션 기반 매핑.                                         |
 | [Value Expressions Fundamentals](https://docs.spring.io/spring-data/mongodb/reference/mongodb/value-expressions.html)    | 매핑 메타데이터 등에서 사용 가능한 SpEL/Property Placeholder 표현식.                              |
 | [Lifecycle Events](https://docs.spring.io/spring-data/mongodb/reference/mongodb/lifecycle-events.html)                   | save/load 등 영속성 동작 전후로 발생하는 매핑 라이프사이클 이벤트.                                      |
 | [Auditing](https://docs.spring.io/spring-data/mongodb/reference/mongodb/auditing.html)                                   | 작성자/수정자/시각 등 감사(auditing) 정보 자동 채움.                                             |
