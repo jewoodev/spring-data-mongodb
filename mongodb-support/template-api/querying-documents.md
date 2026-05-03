@@ -1,3 +1,7 @@
+> **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
+>
+> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+
 # Querying Documents
 
 Spring Data MongoDB는 쿼리를 두 개의 작은 빌더 클래스로 표현한다. **`Query`** 는 "어떤 옵션을 켜고 어떤 조건들을 묶어서 보낼 것인가"를, **`Criteria`** 는 "각 필드에 어떤 조건을 걸 것인가"를 책임진다. 메서드 이름은 가능한 한 MongoDB 연산자(`$lt`, `$gte`, `$in` 등)와 같은 모양으로 맞춰져 있어, MongoDB 셸에서 쿼리를 짜본 적이 있다면 거의 그대로 옮겨 쓸 수 있다.

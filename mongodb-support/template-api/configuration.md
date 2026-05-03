@@ -1,7 +1,5 @@
 > **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
 >
-> **원문 출처:** https://docs.spring.io/spring-data/mongodb/reference/[해당-페이지-경로]
->
 > **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
 
 # Template Configuration

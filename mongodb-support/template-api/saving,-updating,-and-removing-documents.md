@@ -1,3 +1,7 @@
+> **원문 저작권:** Copyright © 2008-2025 VMware, Inc. (Broadcom Inc.). All rights reserved.
+>
+> **본 문서는 학습 목적의 비공식 한국어 번역이며, 어떠한 수익도 발생시키지 않습니다.**
+
 # Saving, Updating, and Removing Documents
 
 `MongoTemplate`은 도메인 객체를 그대로 받아서 BSON 문서로 저장하고, 그 반대 방향의 매핑까지 한 번에 처리한다. 이 문서는 "이 객체를 컬렉션에 어떻게 집어넣고, 어떻게 바꾸고, 어떻게 지우느냐"에 해당하는 메서드들을 모은 것이다. 조회는 [Querying Documents](./querying-documents.md) 쪽을 참고하면 된다.
