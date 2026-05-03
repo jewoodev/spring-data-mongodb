@@ -14,7 +14,7 @@ Spring Data MongoDB는 MongoDB 데이터베이스를 지원합니다. 이 프로
 
 | 주제                                                                                                     | 담는 내용                                       |
 |--------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| [MongoDB](https://docs.spring.io/spring-data/mongodb/reference/mongodb.html)                           | MongoDB 지원 및 연결                             |
+| [MongoDB](./mongodb-support/README.md)                                                                 | MongoDB 지원 및 연결                             |
 | [Repositories](https://docs.spring.io/spring-data/mongodb/reference/repositories.html)                 | MongoDB의 리포지토리                              |
 | [Observability](https://docs.spring.io/spring-data/mongodb/reference/observability/observability.html) | 관측 가능한 것의 모든것                               |
 | [Kotlin Support](https://docs.spring.io/spring-data/mongodb/reference/kotlin.html)                     | Kotlin 지원                                   |
