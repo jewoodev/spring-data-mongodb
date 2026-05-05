@@ -10,7 +10,7 @@
 
 # Template API
 
-`MongoTemplate`과 `org.springframework.data.mongodb.core` 패키지에 함께 들어 있는 반응형(reactive) 카운터파트는 Spring Data MongoDB가 제공하는 MongoDB 지원의 핵심 클래스이다. 두 클래스 모두 데이터베이스와 상호작용하기 위한 풍부한 기능 세트를 제공하며, 문서 생성·수정·삭제·조회뿐 아니라 도메인 객체와 MongoDB 문서 사이의 매핑까지 한 자리에서 다룬다.
+`MongoTemplate`과 `org.springframework.data.mongodb.core` 패키지에 함께 들어 있는 반응형(reactive) 대응 클래는 Spring Data MongoDB가 제공하는 MongoDB 지원의 핵심 클래스이다. 두 클래스 모두 데이터베이스와 상호작용하기 위한 풍부한 기능 세트를 제공하며, 문서 생성·수정·삭제·조회뿐 아니라 도메인 객체와 MongoDB 문서 사이의 매핑까지 한 자리에서 다룬다.
 
 > 한 번 설정된 `MongoTemplate`은 thread-safe 하므로 여러 컴포넌트에서 같은 인스턴스를 공유해 재사용해도 된다.
 
