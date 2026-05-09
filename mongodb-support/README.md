@@ -29,7 +29,7 @@ Spring Data가 제공하는 MongoDB 지원 기능은 폭넓은 범위를 가진�
 ## MongoTemplate과 Repository 중에 무엇을 쓸 것인가
 대부분의 작업에서는 `MongoTemplate` 또는 Repository 지원을 사용하는 것이 좋다. 둘 다 풍부한 매핑 기능을 활용할 수 있다.
 
-`MongoTemplate`는 카운터 증가 같은 동작이나 ad-hoc CRUD 작업처럼, 직접적으로 어떤 기능을 호출해야 할 때 찾아보는 도구이다. 또한 `MongoTemplate`은 콜백 메서드를 제공하므로 `com.mongodb.client.MongoDatabase` 같은 저수준 API 객체를 손에 쥐고 MongoDB와 직접 통신하는 것이 어렵지 않다. 다양한 API 요소의 명명 규칙은 기본 MongoDB Java 드라이버의 이름을 그대로 따라가는 것을 목표로 하므로, 기존에 알고 있던 드라이버 지식을 Spring API에 그대로 옮겨 적용할 수 있다.
+`MongoTemplate`는 카운터 증가 같은 동작이나 ad-hoc CRUD 작업처럼, 직접적으로 어떤 기능을 호출해야 할 때 찾게되는 도구이다. 또한 `MongoTemplate`은 콜백 메서드를 제공하므로 `com.mongodb.client.MongoDatabase` 같은 저수준 API 객체를 손에 쥐고 MongoDB와 직접 통신하는 것이 어렵지 않다. 다양한 API 요소의 명명 규칙은 기본 MongoDB Java 드라이버의 이름을 그대로 따라가는 것을 목표로 하므로, 기존에 알고 있던 드라이버 지식을 Spring API에 그대로 옮겨 적용할 수 있다.
 
 ## 하위 주제
 다음의 표는 [공식 문서의 MongoDB 페이지](https://docs.spring.io/spring-data/mongodb/reference/mongodb.html)가 다루는 하위 주제들을 정리한 것이다. 이 저장소에 번역본이 있는 항목은 링크가 걸려 있다.
